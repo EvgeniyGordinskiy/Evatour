@@ -3,6 +3,8 @@
 <head>
     @section('head')
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,
+user-scalable=no">
         <title>Туристическое агенство "ЕВА"&reg; | @yield('pagetitle');</title>
         <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
         <meta name="csrf-token" content="{{ csrf_token() }}">
