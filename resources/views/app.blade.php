@@ -46,7 +46,7 @@ user-scalable=no">
 @section('footer')
     <footer class="footer accent-fill-4">
 
-        <div class="row">
+        <div class="col-md-12">
             <div class="col-md-4">
                 <ul class="nav-footer pull-left">
                     <li>г. Днепр</li>

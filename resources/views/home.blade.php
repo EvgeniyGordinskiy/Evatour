@@ -5,53 +5,90 @@
 @section('content')
     <div class="col-md-12 first">
         <p>Туристическое агенство "ЕВА"</p>
+        <p>Экономьте время! Заявка, подбор, бронирование — все это on-line!</p>
+        <div class="second_btn col-lg-4 col-md-3 col-sm-3 col-xs-12">
+            <a class="btn_to_form btn_top " href="javascript:void(0)" >Хочу на отдых</a>
+        </div>
     </div>
     <div id="container">
         <h1>Горящие туры</h1>
         <h2>Ориентировочные цены на горящие туры</h2>
         <h2>Для самостоятельного подбора туров и просмотра точных цен — заполните форму обратной связи.</h2>
    <div class="row">
-        <div class="col-md-4">
-            <div class="item">
-                <img src="/img/bolgariyae.jpg" />
+        <div class="product col-sm-5 col-md-4 col-lg-4">
+            <div class="col-md-12">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 item">
+                        <img src="/img/bolgariyae.jpg" />
+
+                </div>
+                <div class="col-md-4"></div>
             </div>
-            <p class="hotTP">Горящий тур в Болгарию
-                от 3700 грн</p>
+            <p class="hotTP">
+                Горящий тур в Болгарию
+                от 3700 грн
+            </p>
+
+
         </div>
-        <div class="col-md-4">
-            <div class="item">
-                <img src="/img/egipete.jpg" />
+        <div class="product col-sm-5 col-md-4 col-lg-4">
+            <div class="col-md-12">
+                <div class="col-md-4"></div>
+                <div class="item col-md-4">
+                    <img src="/img/egipete.jpg" />
+                </div>
+                <div class="col-md-4"></div>
             </div>
+
             <p class="hotTP">Горящий туры в Египет
                 от 6500 грн</p>
         </div>
-        <div class="col-md-4">
-            <div class="item">
-                <img src="/img/turciyae.jpg" />
+        <div class="product col-sm-5 col-md-4 col-lg-4">
+            <div class="col-md-12">
+                <div class="col-md-4"></div>
+                <div class="item col-md-4">
+                    <img src="/img/turciyae.jpg" />
+                </div>
+                <div class="col-md-4"></div>
             </div>
+
+
             <p class="hotTP">Горящий туры в Турцию
                 от 6268 грн</p>
         </div>
-   </div>
-        <div class="row">
-        <div class="col-md-4">
-            <div class="item">
-                <img src="/img/greciyae.jpg" />
+        <div class="product col-sm-5 col-md-4 col-lg-4">
+            <div class="col-md-12">
+                <div class="col-md-4"></div>
+                <div class="item col-md-4">
+                    <img src="/img/greciyae.jpg" />
+                </div>
+                <div class="col-md-4"></div>
             </div>
+
             <p class="hotTP">Горящий тур в Грецию
                 от 6490 грн</p>
         </div>
-        <div class="col-md-4">
-            <div class="item">
-                <img src="/img/chernogoriyae.jpg" />
+        <div class="product col-sm-5 col-md-4 col-lg-4">
+            <div class="col-md-12">
+                <div class="col-md-4"></div>
+                <div class="item col-md-4">
+                    <img src="/img/chernogoriyae.jpg" />
+                </div>
+                <div class="col-md-4"></div>
             </div>
+
             <p class="hotTP">Тур в Черногорию
                 от 7500 грн</p>
         </div>
-        <div class="col-md-4">
-            <div class="item">
-                <img src="/img/shri_lankae.jpg" />
+        <div class="product col-sm-5 col-md-4 col-lg-4">
+            <div class="col-md-12">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 item ">
+                    <img src="/img/shri_lankae.jpg" />
+                </div>
+                <div class="col-md-4"></div>
             </div>
+
             <p class="hotTP">Тур на Шри-Ланку
                 от 8930 грн</p>
         </div>

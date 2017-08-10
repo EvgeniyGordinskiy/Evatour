@@ -12,7 +12,7 @@ $(function() {
     $(document).on('scroll',function(event){
         if($(window).scrollTop() == 0){
             $('header').removeClass('active');
-            $('.btn_top').addClass('btn_top_active');
+            $('header').find('.btn_top').addClass('btn_top_active');
         }else{
             $('header').addClass('active');
             $('.btn_top').removeClass('btn_top_active');
@@ -66,6 +66,15 @@ $(function() {
         }
         console.log('dfs');
     });
+
+    $(".close").click(function(event){
+    console.log($(this).closest('.alert').remove());
+    });
+
+    $('.btn_top').click(function(event){
+        $('html,body').animate({
+                scrollTop: $("#formReq").offset().top},
+            'slow');    });
 
 
 });
